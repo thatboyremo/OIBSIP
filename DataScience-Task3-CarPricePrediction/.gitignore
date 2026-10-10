@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+# The trained model is ~200 MB: above GitHub's 100 MB file limit. Use Git LFS or external storage (see README).
+backend/model/*.pkl

@@ -11,3 +11,6 @@ __pycache__/
 dist/
 .vite/
 *.tsbuildinfo
+
+# AutoValue AI trained model (over 100 MB)
+*.pkl

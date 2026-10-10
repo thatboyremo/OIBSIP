@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.7,<3
+pandas>=2.2
+numpy>=1.26
+joblib>=1.4
+# IMPORTANT: your model was pickled with scikit-learn 1.7.2 (verified from the file).
+# Pin the same version to avoid InconsistentVersionWarning / undefined behaviour.
+scikit-learn==1.7.2
