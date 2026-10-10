@@ -14,3 +14,4 @@ dist/
 
 # AutoValue AI trained model (over 100 MB)
 *.pkl
+!DataScience-Task3-CarPricePrediction/backend/model/car_price_model.pkl
